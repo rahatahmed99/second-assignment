@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body{
+  font-family: "Inter", sans-serif;
+  color: white;
+  background-color: black;
+}
+
+
+/* Sheared styles */
+.display-flex{
+  display: flex;
+}
+
+/* dark2 */
+.light-gry{
+  color: rgb(255, 255, 255);
+}
+
+/* dark3 */
+.text-gry{
+  color:rgba(255, 255, 255, 0.5);
+}
+
+span{
+  margin: 0rem 2.5rem;
+  padding: 0.5rem 1.3rem 0.5rem 1.3rem;
+  border-radius: 2.5rem;
+  color: rgb(230, 83, 60);
+}
+
+
+
+
+/* header styles */
+
+/* navber related styles */
+
+.banner{
+  max-width: 1440px;
+  height: 750px;
+}
+
+.navber{
+ width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand{
+  font-size: 2rem;
+  font-weight: 800;
+  color: rgb(230, 83, 60);
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 2.3rem;
+
+}
+
+.nav-link{
+  text-decoration: none;
+}
