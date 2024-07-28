@@ -23,14 +23,32 @@ body{
   color:rgba(255, 255, 255, 0.5);
 }
 
-span{
-  margin: 0rem 2.5rem;
-  padding: 0.5rem 1.3rem 0.5rem 1.3rem;
-  border-radius: 2.5rem;
-  color: rgb(230, 83, 60);
+.shape{
+  
 }
 
+.btn-primary{
+  width: 224px;
+  height: 54px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);;
+  padding: 1rem 2.2rem 1rem 2.2rem;
+  border-radius: 2.3rem;
+  background-color: rgb(230, 83, 60);
+}
 
+.btn{
+  width: 224px;
+  height: 54px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);;
+  padding: 1rem 2.2rem 1rem 2.2rem;
+  border-radius: 2.3rem;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: black;
+}
 
 
 /* header styles */
@@ -40,6 +58,8 @@ span{
 .banner{
   max-width: 1440px;
   height: 750px;
+  margin: 0 auto;
+  border: 2px solid white;
 }
 
 .navber{
@@ -62,5 +82,51 @@ span{
 }
 
 .nav-link{
+  font-size: 1rem;
+  font-weight: 400;
   text-decoration: none;
+}
+
+.home{
+  width: 92px;
+  height: 38px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+}
+
+.banner-container{
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+
+
+.banner-content{
+  width: 520px;
+  height: 420px;
+  margin-bottom: 76px;
+}
+
+.banner-title{
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  margin-bottom: 0px;
+}
+
+.banner-discription{
+  font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+}
+
+.img-2{
+  width: 350px;
+  height: 580px;
 }
